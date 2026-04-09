@@ -1,6 +1,6 @@
 {
   "name": "@fqp/gh-cli-action",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "description": "Setup gh-cli in self hosted runners",
   "main": "lib/main.js",

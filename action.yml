@@ -1,13 +1,13 @@
-name: "Setup gh cli for self-hosted runners"
+name: 'Setup gh cli for self-hosted runners'
 description: "This action is to setup gh cli in self-hosted runners that don't come with it pre-installed"
-author: "fqp"
+author: 'fqp'
 inputs:
-  version: 
+  version:
     required: false
     description: 'gh cli version to download'
   archive_format:
     required: false
     description: 'the format of the archive that is published at: github.com/cli/cli/releases (defaults to .tar.gz)'
 runs:
-  using: 'node20'
+  using: 'node24'
   main: 'dist/index.js'
