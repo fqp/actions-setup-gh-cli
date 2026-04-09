@@ -1,6 +1,6 @@
 name: "Setup gh cli"
 description: "Setup gh cli in self-hosted runners. This action is to setup gh cli in self-hosted runners"
-author: "ksivamuthu"
+author: "fqp"
 inputs:
   version: 
     required: false
