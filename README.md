@@ -10,7 +10,7 @@ To install the gh cli, use the actions as below:
     build:
       runs-on: [self-hosted]
       steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@v6
         - name: Install the gh cli
           uses: fqp/actions-setup-gh-cli@<VERSION>
           with:
