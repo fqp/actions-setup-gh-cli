@@ -8,6 +8,10 @@ inputs:
   archive_format:
     required: false
     description: 'the format of the archive that is published at: github.com/cli/cli/releases (defaults to .tar.gz)'
+  token:
+    required: false
+    description: 'GitHub token for authenticated API requests (avoids rate limits)'
+    default: ${{ github.token }}
 runs:
   using: 'node24'
   main: 'dist/index.js'
