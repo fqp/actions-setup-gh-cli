@@ -94,6 +94,9 @@ typings/
 .DS_Store
 Thumbs.db
 
+# Claude Code
+.claude/
+
 # Ignore built ts files
 __tests__/runner/*
 lib/**/*
