@@ -14,10 +14,8 @@ To install the gh cli, use the actions as below:
         - name: Install the gh cli
           uses: fqp/actions-setup-gh-cli@<VERSION>
           with:
-            version: 2.24.3
-            token: ${{ secrets.GITHUB_TOKEN }}
+            version: 2.24.3 # optional, defaults to latest
+            token: ${{ secrets.GITHUB_TOKEN }} # optional, defaults to github.token
         - run: |
             gh version
    ```
-
-> **Note:** The `token` input defaults to `${{ github.token }}`, so it works automatically without explicit configuration. You only need to set it if you want to use a different token (e.g. a PAT with broader permissions).
